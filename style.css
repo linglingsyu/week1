@@ -1,0 +1,151 @@
+body{
+  font-family: 'Roboto','Noto Sans TC', sans-serif;
+}
+
+.mb-64{
+  margin-bottom: 64px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-white{
+  color: #FFFFFF;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.box{
+  width: 996px;
+  margin:  0 auto;
+}
+
+h1{
+  font-size: 80px;
+  line-height: 95px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 22px;
+}
+
+.photo{
+  margin: 48px 0;
+}
+
+.profile{
+  margin-top: 40px;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 48px;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 16px;
+  color: #A00404;
+  padding-bottom: 7px;
+}
+
+h2 span{
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 16px;
+}
+
+ul li{
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.profile ul li{
+  margin-bottom: 24px;
+}
+
+.education ul li{
+  margin: 16px 0;
+}
+
+.bg-blue{
+  background-color: #415165;
+}
+
+.skills{
+  color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  margin-bottom: 64px;
+}
+
+.skills h2,.contact h2{
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 0;
+}
+
+.skills ul{
+  padding-left: 23px;
+  border-left: 1px solid #96A9C4;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.skills ul li{
+  margin-bottom: 8px;
+}
+
+.skills ul li:last-child{
+  margin-bottom: 0;
+}
+
+.contact{
+  color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.contact h2{
+  margin-bottom: 24px;
+}
+
+.contact ul li{
+  margin-bottom: 16px;
+}
+
+.contact ul li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact img{
+  margin-right: 24px;
+}
+
+.experience{
+  margin-bottom: 80px;
+}
+
+.experience ul{
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+}
+.experience ul li{
+  margin-bottom: 24px;
+}
+
+.experience ul li h3{
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.experience ul li p{
+  font-size: 20px;
+  line-height: 30px;
+  width: 642px;
+}
+
+
+
+
+
+
