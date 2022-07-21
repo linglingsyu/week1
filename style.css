@@ -1,5 +1,59 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+  vertical-align: middle;
+}
+
+
 body{
-  font-family: 'Roboto','Noto Sans TC', sans-serif;
+  font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
 }
 
 .mb-64{
@@ -8,6 +62,10 @@ body{
 
 .text-center{
   text-align: center;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-white{
@@ -41,26 +99,26 @@ h1{
 
 h2{
   font-size: 32px;
-  line-height: 48px;
   border-bottom: 1px solid #000000;
   margin-bottom: 16px;
-  color: #A00404;
   padding-bottom: 7px;
+  font-weight: 500;
 }
 
 h2 span{
+  color: #A00404;
   font-size: 24px;
-  line-height: 36px;
   margin-left: 16px;
 }
 
 ul li{
   font-size: 24px;
-  line-height: 36px;
+  font-weight: 300;
 }
 
 .profile ul li{
   margin-bottom: 24px;
+
 }
 
 .education ul li{
@@ -117,6 +175,16 @@ ul li{
   text-decoration: none;
 }
 
+.contact ul li a:hover{
+  text-decoration: underline;
+}
+.contact a img{
+  transition: transform 0.3s;
+}
+.contact a img:hover{
+  transform: translateY(10px);
+}
+
 .contact img{
   margin-right: 24px;
 }
@@ -128,20 +196,21 @@ ul li{
 .experience ul{
   border-left: 1px solid #96A9C4;
   padding-left: 24px;
+  margin-left: 24px;
 }
 .experience ul li{
   margin-bottom: 24px;
+  font-weight: 500;
 }
 
 .experience ul li h3{
   font-size: 24px;
-  line-height: 36px;
 }
 
 .experience ul li p{
   font-size: 20px;
-  line-height: 30px;
   width: 642px;
+  font-weight: 300;
 }
 
 
